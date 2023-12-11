@@ -1,0 +1,126 @@
+28-11-2023 22:41:02 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:02 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:02 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:05 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:05 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:05 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:10 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:10 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:10 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:17 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:17 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:17 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:21 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:21 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:21 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:25 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:25 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:25 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:31 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:31 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:31 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:36 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:36 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:36 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:39 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:39 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:39 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:44 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:44 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:44 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:49 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:49 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:49 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:51 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:51 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:51 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:55 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:55 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:55 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:59 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getUsuarioId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 20 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:59 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getProdutoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 21 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java
+28-11-2023 22:41:59 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   method getEnderecoId()
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 22 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\dto\PedidoResponseDTO.java

@@ -1,0 +1,162 @@
+01-12-2023 10:25:01 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:01 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:01 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:01 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:01 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:03 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:03 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:03 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:03 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:03 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:05 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:05 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:05 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:05 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:05 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:08 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:08 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:08 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:08 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:08 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:13 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:13 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:13 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:13 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:13 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:15 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:15 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:15 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:16 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:16 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:19 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:19 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:19 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:19 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:19 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:23 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:23 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:23 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:23 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:23 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:26 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:26 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:26 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:26 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:26 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:31 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:31 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:31 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:31 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:31 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:34 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:34 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:34 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:34 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:34 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:38 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:38 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:38 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:38 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:38 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:41 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:41 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:41 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:41 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:41 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:44 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:44 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:44 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:44 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:44 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:49 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:49 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:49 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:49 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:49 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:51 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:51 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:51 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:51 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:51 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:55 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:55 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:55 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:55 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:55 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]
+01-12-2023 10:25:59 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) method does not override or implement a method from a supertype, line 57 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:59 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) incompatible types: java.util.List<br.unitins.topicos1.dto.EnderecoDTO> cannot be converted to java.lang.String, line 69 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:59 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method getEndereco()
+  location: variable dto of type br.unitins.topicos1.dto.PedidoDTO, line 70 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:59 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   method setEndereco(br.unitins.topicos1.model.Endereco)
+  location: variable pedido of type br.unitins.topicos1.model.Pedido, line 71 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+01-12-2023 10:25:59 WARN  [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) Some messages have been simplified; recompile with -Xdiags:verbose to get full output, line -1 in [unknown source]

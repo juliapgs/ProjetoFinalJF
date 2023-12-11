@@ -1,0 +1,20 @@
+02-12-2023 05:23:34 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   variable codigoBoleto
+  location: class br.unitins.topicos1.model.Pedido, line 89 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\model\Pedido.java
+02-12-2023 05:23:34 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol: variable codigoBoleto, line 93 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\model\Pedido.java
+02-12-2023 05:23:34 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   variable dataVencimentoBoleto
+  location: class br.unitins.topicos1.model.Pedido, line 97 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\model\Pedido.java
+02-12-2023 05:23:34 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol: variable dataVencimentoBoleto, line 101 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\model\Pedido.java
+02-12-2023 05:23:40 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   variable codigoBoleto
+  location: class br.unitins.topicos1.model.Pedido, line 89 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\model\Pedido.java
+02-12-2023 05:23:40 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol: variable codigoBoleto, line 93 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\model\Pedido.java
+02-12-2023 05:23:40 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol:   variable dataVencimentoBoleto
+  location: class br.unitins.topicos1.model.Pedido, line 97 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\model\Pedido.java
+02-12-2023 05:23:40 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-1) cannot find symbol
+  symbol: variable dataVencimentoBoleto, line 101 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\model\Pedido.java

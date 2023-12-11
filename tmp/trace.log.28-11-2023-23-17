@@ -1,0 +1,45 @@
+28-11-2023 23:17:00 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:04 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:07 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:09 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:12 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:15 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:21 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:27 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:31 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:34 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:39 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:44 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:50 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:56 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:17:59 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) cannot find symbol
+  symbol:   class EnderecoService
+  location: class br.unitins.topicos1.service.PedidoServiceImpl, line 26 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java

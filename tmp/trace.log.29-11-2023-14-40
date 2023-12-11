@@ -1,0 +1,4 @@
+29-11-2023 14:40:27 INFO  [io.quarkus] (Quarkus Main Thread) quarkus-topicos1-2023-2 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.2.4.Final) started in 2.000s. Listening on: http://localhost:8080
+29-11-2023 14:40:27 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+29-11-2023 14:40:27 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, narayana-jta, reactive-routes, resteasy, resteasy-jackson, resteasy-multipart, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]
+29-11-2023 14:40:27 INFO  [io.qu.de.de.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Live reload total time: 10.367s 

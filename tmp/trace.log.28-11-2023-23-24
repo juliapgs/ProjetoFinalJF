@@ -1,0 +1,136 @@
+28-11-2023 23:24:02 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:02 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:07 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:07 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:10 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:10 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:13 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:13 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:18 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:18 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:21 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:21 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:23 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:23 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:27 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:27 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:30 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:30 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:34 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:34 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:38 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:38 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:42 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:42 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:45 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:45 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:47 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:47 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:50 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:50 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:54 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:54 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:58 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 37 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java
+28-11-2023 23:24:58 ERROR [io.qu.de.de.JavaCompilationProvider] (vert.x-worker-thread-2) method getTenisId in class br.unitins.topicos1.model.Pedido cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long
+  reason: actual and formal argument lists differ in length, line 55 in C:\Users\User\Downloads\ProjetoFinalJF\src\main\java\br\unitins\topicos1\service\PedidoServiceImpl.java

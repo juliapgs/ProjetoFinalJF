@@ -1,0 +1,5 @@
+02-12-2023 03:01:50 INFO  [br.un.to.re.AuthResource] (executor-thread-9) Iniciando a autenticacao do musk
+02-12-2023 03:01:51 INFO  [br.un.to.re.AuthResource] (executor-thread-9) Hash da senha gerado.
+02-12-2023 03:01:51 DEBUG [br.un.to.re.AuthResource] (executor-thread-9) yEaSZv1mx2Hf11tomtEAY3HUG2hrQS2ACE17U1PeCoA7PFIhHARbDredPke5UTKwvMVA+jod2rMVKSoDzm8p3Q==
+02-12-2023 03:01:51 INFO  [br.un.to.re.AuthResource] (executor-thread-9) Login e senha corretos.
+02-12-2023 03:01:52 INFO  [br.un.to.re.AuthResource] (executor-thread-9) Finalizando o processo de login.

@@ -1,0 +1,171 @@
+02-12-2023 05:18:09 WARN  [or.hi.to.sc.in.ExceptionHandlerLoggedImpl] (JPA Startup Thread) GenerationTarget encountered exception accepting command : Error executing DDL "insert into pedido_endereco (id_pedido, id_endereco) values(1,1)" via JDBC [ERROR: insert or update on table "pedido_endereco" violates foreign key constraint "fkq85sd7g9yrnk69gkm2pg7bmfq"
+  Detalhe: Key (id_endereco)=(1) is not present in table "endereco".]: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "insert into pedido_endereco (id_pedido, id_endereco) values(1,1)" via JDBC [ERROR: insert or update on table "pedido_endereco" violates foreign key constraint "fkq85sd7g9yrnk69gkm2pg7bmfq"
+  Detalhe: Key (id_endereco)=(1) is not present in table "endereco".]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:92)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:235)
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:257)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportFiles(SchemaCreatorImpl.java:650)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:569)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:184)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:142)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:118)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:254)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at io.quarkus.hibernate.orm.runtime.observers.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:21)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:292)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:84)
+	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:74)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:156)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$1.run(JPAConfig.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: insert or update on table "pedido_endereco" violates foreign key constraint "fkq85sd7g9yrnk69gkm2pg7bmfq"
+  Detalhe: Key (id_endereco)=(1) is not present in table "endereco".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at io.agroal.pool.wrapper.StatementWrapper.execute(StatementWrapper.java:235)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:78)
+	... 21 more
+
+02-12-2023 05:18:09 WARN  [or.hi.to.sc.in.ExceptionHandlerLoggedImpl] (JPA Startup Thread) GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO pedido (id_usuario, id_tenis, id_endereco, dataCompra, formaPagamento, statusPedido) VALUES (1, 2, 1, '2023-02-22', 'PIX', 'PAGO')" via JDBC [ERROR: column "id_endereco" of relation "pedido" does not exist
+  Posição: 43]: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO pedido (id_usuario, id_tenis, id_endereco, dataCompra, formaPagamento, statusPedido) VALUES (1, 2, 1, '2023-02-22', 'PIX', 'PAGO')" via JDBC [ERROR: column "id_endereco" of relation "pedido" does not exist
+  Posição: 43]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:92)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:235)
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:257)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportFiles(SchemaCreatorImpl.java:650)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:569)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:184)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:142)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:118)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:254)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at io.quarkus.hibernate.orm.runtime.observers.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:21)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:292)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:84)
+	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:74)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:156)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$1.run(JPAConfig.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: column "id_endereco" of relation "pedido" does not exist
+  Posição: 43
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at io.agroal.pool.wrapper.StatementWrapper.execute(StatementWrapper.java:235)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:78)
+	... 21 more
+
+02-12-2023 05:18:09 WARN  [or.hi.to.sc.in.ExceptionHandlerLoggedImpl] (JPA Startup Thread) GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO pedido (id_usuario, id_tenis, id_endereco, dataCompra, formaPagamento, statusPedido) VALUES (1, 2, 2, '2023-04-03', 'BOLETO', 'ENTREGUE')" via JDBC [ERROR: column "id_endereco" of relation "pedido" does not exist
+  Posição: 43]: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO pedido (id_usuario, id_tenis, id_endereco, dataCompra, formaPagamento, statusPedido) VALUES (1, 2, 2, '2023-04-03', 'BOLETO', 'ENTREGUE')" via JDBC [ERROR: column "id_endereco" of relation "pedido" does not exist
+  Posição: 43]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:92)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:235)
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:257)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportFiles(SchemaCreatorImpl.java:650)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:569)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:184)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:142)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:118)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:254)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at io.quarkus.hibernate.orm.runtime.observers.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:21)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:292)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:84)
+	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:74)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:156)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$1.run(JPAConfig.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: column "id_endereco" of relation "pedido" does not exist
+  Posição: 43
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at io.agroal.pool.wrapper.StatementWrapper.execute(StatementWrapper.java:235)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:78)
+	... 21 more
+
+02-12-2023 05:18:09 WARN  [or.hi.to.sc.in.ExceptionHandlerLoggedImpl] (JPA Startup Thread) GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO pedido (id_usuario, id_tenis, id_endereco, dataCompra, formaPagamento, statusPedido) VALUES (2, 3, 3, '2023-10-06', 'PIX', 'PAGO')" via JDBC [ERROR: column "id_endereco" of relation "pedido" does not exist
+  Posição: 43]: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO pedido (id_usuario, id_tenis, id_endereco, dataCompra, formaPagamento, statusPedido) VALUES (2, 3, 3, '2023-10-06', 'PIX', 'PAGO')" via JDBC [ERROR: column "id_endereco" of relation "pedido" does not exist
+  Posição: 43]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:92)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:235)
+	at org.hibernate.tool.schema.internal.Helper.applyScript(Helper.java:257)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportFiles(SchemaCreatorImpl.java:650)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:569)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:184)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:142)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:118)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:254)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at io.quarkus.hibernate.orm.runtime.observers.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:21)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:292)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootEntityManagerFactoryBuilder.build(FastBootEntityManagerFactoryBuilder.java:84)
+	at io.quarkus.hibernate.orm.runtime.FastBootHibernatePersistenceProvider.createEntityManagerFactory(FastBootHibernatePersistenceProvider.java:74)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$LazyPersistenceUnit.get(JPAConfig.java:156)
+	at io.quarkus.hibernate.orm.runtime.JPAConfig$1.run(JPAConfig.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: column "id_endereco" of relation "pedido" does not exist
+  Posição: 43
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at io.agroal.pool.wrapper.StatementWrapper.execute(StatementWrapper.java:235)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:78)
+	... 21 more
+
+02-12-2023 05:18:09 INFO  [io.quarkus] (Quarkus Main Thread) quarkus-topicos1-2023-2 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.2.4.Final) started in 2.179s. Listening on: http://localhost:8080
+02-12-2023 05:18:09 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+02-12-2023 05:18:09 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-postgresql, narayana-jta, reactive-routes, resteasy, resteasy-jackson, resteasy-multipart, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]
+02-12-2023 05:18:09 INFO  [io.qu.de.de.RuntimeUpdatesProcessor] (vert.x-worker-thread-2) Live reload total time: 5.095s 
+02-12-2023 05:18:09 INFO  [io.qu.de.de.RuntimeUpdatesProcessor] (vert.x-worker-thread-2) Live reload took more than 4 seconds, you may want to enable instrumentation based reload (quarkus.live-reload.instrumentation=true). This allows small changes to take effect without restarting Quarkus.
+02-12-2023 05:18:26 INFO  [br.un.to.re.AuthResource] (executor-thread-7) Iniciando a autenticacao do gates
+02-12-2023 05:18:26 INFO  [br.un.to.re.AuthResource] (executor-thread-7) Hash da senha gerado.
+02-12-2023 05:18:26 DEBUG [br.un.to.re.AuthResource] (executor-thread-7) O2JdqlPMBBKPaus+zYDOx/D6Ol9IZk9UFD95DcsTQLBD4euH4P9Sh1OrL4c1l4vLPkYjGgxrMFFUy09ouL7vDA==
+02-12-2023 05:18:36 INFO  [br.un.to.re.AuthResource] (executor-thread-7) Iniciando a autenticacao do gates
+02-12-2023 05:18:36 INFO  [br.un.to.re.AuthResource] (executor-thread-7) Hash da senha gerado.
+02-12-2023 05:18:36 DEBUG [br.un.to.re.AuthResource] (executor-thread-7) DzdKfFtHned4y7fLASqK0gH9EqUAMZgn6HuhapPc6l0ycYnZ/AZB2mFjbV5ADHvCpr8u3Vm8SkIIJ55gmKQDdA==

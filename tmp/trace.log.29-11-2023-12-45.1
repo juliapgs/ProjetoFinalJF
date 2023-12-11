@@ -1,0 +1,48 @@
+29-11-2023 12:40:56 INFO  [io.qu.de.de.IsolatedDevModeMain] (main) Attempting to start live reload endpoint to recover from previous Quarkus startup failure
+29-11-2023 12:40:56 ERROR [io.qu.ru.bo.StartupActionImpl] (Quarkus Main Thread) Error running Quarkus: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.quarkus.runner.bootstrap.StartupActionImpl$1.run(StartupActionImpl.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at io.quarkus.runtime.Quarkus.run(Quarkus.java:70)
+	at io.quarkus.runtime.Quarkus.run(Quarkus.java:44)
+	at io.quarkus.runtime.Quarkus.run(Quarkus.java:124)
+	at io.quarkus.runner.GeneratedMain.main(Unknown Source)
+	... 6 more
+Caused by: java.lang.RuntimeException: Failed to start quarkus
+	at io.quarkus.runner.ApplicationImpl.<clinit>(Unknown Source)
+	... 15 more
+Caused by: org.hibernate.AnnotationException: Property 'br.unitins.topicos1.model.Pedido.dataCompra' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+	at org.hibernate.boot.model.internal.CollectionBinder.determineSemanticJavaType(CollectionBinder.java:1083)
+	at org.hibernate.boot.model.internal.CollectionBinder.determineCollectionClassification(CollectionBinder.java:975)
+	at org.hibernate.boot.model.internal.CollectionBinder.createBinderAutomatically(CollectionBinder.java:817)
+	at org.hibernate.boot.model.internal.CollectionBinder.getCollectionBinder(CollectionBinder.java:810)
+	at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:270)
+	at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:851)
+	at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:765)
+	at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:686)
+	at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:967)
+	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:302)
+	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:228)
+	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:417)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:255)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:275)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:318)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootMetadataBuilder.build(FastBootMetadataBuilder.java:406)
+	at io.quarkus.hibernate.orm.runtime.PersistenceUnitsHolder.createMetadata(PersistenceUnitsHolder.java:101)
+	at io.quarkus.hibernate.orm.runtime.PersistenceUnitsHolder.constructMetadataAdvance(PersistenceUnitsHolder.java:73)
+	at io.quarkus.hibernate.orm.runtime.PersistenceUnitsHolder.initializeJpa(PersistenceUnitsHolder.java:40)
+	at io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder$1.created(HibernateOrmRecorder.java:78)
+	at io.quarkus.arc.runtime.ArcRecorder.initBeanContainer(ArcRecorder.java:79)
+	at io.quarkus.deployment.steps.ArcProcessor$generateResources844392269.deploy_0(Unknown Source)
+	at io.quarkus.deployment.steps.ArcProcessor$generateResources844392269.deploy(Unknown Source)
+	... 16 more
+

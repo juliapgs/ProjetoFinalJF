@@ -1,0 +1,46 @@
+02-12-2023 05:43:43 INFO  [io.qu.de.de.IsolatedDevModeMain] (main) Attempting to start live reload endpoint to recover from previous Quarkus startup failure
+02-12-2023 05:43:43 ERROR [io.qu.ru.bo.StartupActionImpl] (Quarkus Main Thread) Error running Quarkus: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.quarkus.runner.bootstrap.StartupActionImpl$1.run(StartupActionImpl.java:104)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at io.quarkus.runtime.Quarkus.run(Quarkus.java:70)
+	at io.quarkus.runtime.Quarkus.run(Quarkus.java:44)
+	at io.quarkus.runtime.Quarkus.run(Quarkus.java:124)
+	at io.quarkus.runner.GeneratedMain.main(Unknown Source)
+	... 6 more
+Caused by: java.lang.RuntimeException: Failed to start quarkus
+	at io.quarkus.runner.ApplicationImpl.<clinit>(Unknown Source)
+	... 15 more
+Caused by: org.hibernate.type.descriptor.java.spi.JdbcTypeRecommendationException: Could not determine recommended JdbcType for `br.unitins.topicos1.model.Endereco`
+	at org.hibernate.type.descriptor.java.spi.UnknownBasicJavaType.getRecommendedJdbcType(UnknownBasicJavaType.java:37)
+	at org.hibernate.type.descriptor.java.spi.BasicCollectionJavaType.getRecommendedJdbcType(BasicCollectionJavaType.java:74)
+	at org.hibernate.boot.model.process.internal.InferredBasicValueResolver.from(InferredBasicValueResolver.java:222)
+	at org.hibernate.mapping.BasicValue.buildResolution(BasicValue.java:480)
+	at org.hibernate.mapping.BasicValue.resolve(BasicValue.java:310)
+	at org.hibernate.mapping.BasicValue.resolve(BasicValue.java:300)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.lambda$processValueResolvers$4(InFlightMetadataCollectorImpl.java:1842)
+	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1682)
+	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1660)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processValueResolvers(InFlightMetadataCollectorImpl.java:1841)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1827)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:328)
+	at io.quarkus.hibernate.orm.runtime.boot.FastBootMetadataBuilder.build(FastBootMetadataBuilder.java:406)
+	at io.quarkus.hibernate.orm.runtime.PersistenceUnitsHolder.createMetadata(PersistenceUnitsHolder.java:101)
+	at io.quarkus.hibernate.orm.runtime.PersistenceUnitsHolder.constructMetadataAdvance(PersistenceUnitsHolder.java:73)
+	at io.quarkus.hibernate.orm.runtime.PersistenceUnitsHolder.initializeJpa(PersistenceUnitsHolder.java:40)
+	at io.quarkus.hibernate.orm.runtime.HibernateOrmRecorder$1.created(HibernateOrmRecorder.java:78)
+	at io.quarkus.arc.runtime.ArcRecorder.initBeanContainer(ArcRecorder.java:79)
+	at io.quarkus.deployment.steps.ArcProcessor$generateResources844392269.deploy_0(Unknown Source)
+	at io.quarkus.deployment.steps.ArcProcessor$generateResources844392269.deploy(Unknown Source)
+	... 16 more
+
+02-12-2023 05:43:44 WARN  [io.qu.co.build] (vert.x-worker-thread-2) The 'quarkus.log.console.color' config property is deprecated and should not be used anymore
