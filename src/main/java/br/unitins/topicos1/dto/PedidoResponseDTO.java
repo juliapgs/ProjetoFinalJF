@@ -5,7 +5,6 @@ import java.util.List;
 
 import br.unitins.topicos1.model.FormaPagamento;
 import br.unitins.topicos1.model.Pedido;
-import br.unitins.topicos1.model.Perfil;
 import br.unitins.topicos1.model.StatusPedido;
 
 public record PedidoResponseDTO(

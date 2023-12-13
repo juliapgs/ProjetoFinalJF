@@ -16,7 +16,6 @@ import br.unitins.topicos1.dto.UpdateTelefoneDTO;
 import br.unitins.topicos1.dto.UsuarioResponseDTO;
 import jakarta.annotation.security.RolesAllowed;
 import jakarta.inject.Inject;
-import jakarta.validation.ConstraintViolationException;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;

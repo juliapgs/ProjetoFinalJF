@@ -25,7 +25,7 @@ import jakarta.ws.rs.core.Response.Status;
 @Consumes(MediaType.APPLICATION_JSON)
 public class TenisResource {
 
-     @Inject
+    @Inject
     JsonWebToken jwt;
 
     @Inject
@@ -56,7 +56,6 @@ public class TenisResource {
     }
 
     @GET
-    @RolesAllowed({"User", "Admin"})
     public Response findAll() {
         return Response.ok(service.findByAll()).build();
     }
@@ -70,7 +69,6 @@ public class TenisResource {
 
     @GET
     @Path("/search/modelo/{modelo}")
-    @RolesAllowed({"User", "Admin"})
     public Response findByModelo(@PathParam("modelo") String modelo) {
         return Response.ok(service.findByModelo(modelo)).build();
     }

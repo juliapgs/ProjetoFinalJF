@@ -44,11 +44,6 @@ public class AuthResource {
 
         UsuarioResponseDTO result = service.findByLoginAndSenha(dto.login(), hashSenha);
 
-        if (result != null)
-            LOG.info("Login e senha corretos.");
-        else
-            LOG.info("Login e senha incorretos.");
-        
         String token = jwtService.generateJwt(result);
 
         LOG.info("Finalizando o processo de login.");
