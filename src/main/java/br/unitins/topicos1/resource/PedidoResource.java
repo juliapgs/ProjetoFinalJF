@@ -3,6 +3,7 @@ package br.unitins.topicos1.resource;
 import br.unitins.topicos1.dto.PedidoDTO;
 import br.unitins.topicos1.dto.PedidoResponseDTO;
 import br.unitins.topicos1.service.PedidoService;
+import jakarta.annotation.security.RolesAllowed;
 import jakarta.inject.Inject;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.*;
@@ -12,15 +13,21 @@ import jakarta.ws.rs.core.Response.Status;
 
 import java.util.List;
 
+import org.eclipse.microprofile.jwt.JsonWebToken;
+
 @Path("/pedidos")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class PedidoResource {
 
     @Inject
+    JsonWebToken jwt;
+
+    @Inject
     PedidoService service;
 
     @POST
+    @RolesAllowed({"User", "Admin"})
     public Response insert(@Valid PedidoDTO dto) {
         PedidoResponseDTO retorno = service.insert(dto);
         return Response.status(201).entity(retorno).build();
@@ -28,6 +35,7 @@ public class PedidoResource {
 
     @PUT
     @Path("/{id}")
+    @RolesAllowed({"User", "Admin"})
     public Response update(PedidoDTO dto, @PathParam("id") Long id) {
         try {
             PedidoResponseDTO retorno = service.update(dto, id);
@@ -39,6 +47,7 @@ public class PedidoResource {
 
     @DELETE
     @Path("/{id}")
+    @RolesAllowed({"User", "Admin"})
     public Response delete(@PathParam("id") Long id) {
         try {
             service.delete(id);
@@ -49,6 +58,7 @@ public class PedidoResource {
     }
 
     @GET
+    @RolesAllowed({"User", "Admin"})
     public Response findByAll() {
         List<PedidoResponseDTO> pedidos = service.findByAll();
         return Response.ok(pedidos).build();
@@ -56,6 +66,7 @@ public class PedidoResource {
 
     @GET
     @Path("/{id}")
+    @RolesAllowed({"User", "Admin"})
     public Response findById(@PathParam("id") Long id) {
         PedidoResponseDTO pedido = service.findById(id);
         if (pedido != null) {

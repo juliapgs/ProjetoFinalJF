@@ -3,15 +3,21 @@ package br.unitins.topicos1.resource;
 import java.io.IOException;
 
 import org.eclipse.microprofile.jwt.JsonWebToken;
+import org.jboss.logging.Logger;
 import org.jboss.resteasy.annotations.providers.multipart.MultipartForm;
 
 import br.unitins.topicos1.form.UsuarioImageForm;
 import br.unitins.topicos1.service.UsuarioFileService;
 import br.unitins.topicos1.service.UsuarioService;
 import br.unitins.topicos1.application.Error;
+import br.unitins.topicos1.dto.UpdateNomeDTO;
+import br.unitins.topicos1.dto.UpdateSenhaDTO;
+import br.unitins.topicos1.dto.UpdateTelefoneDTO;
 import br.unitins.topicos1.dto.UsuarioResponseDTO;
 import jakarta.annotation.security.RolesAllowed;
 import jakarta.inject.Inject;
+import jakarta.validation.ConstraintViolationException;
+import jakarta.validation.Valid;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.PATCH;
@@ -37,15 +43,50 @@ public class UsuarioLogadoResource {
     @Inject
     UsuarioFileService fileService;
 
+    private static final Logger LOG = Logger.getLogger(UsuarioLogadoResource.class);
+
     @GET
     @RolesAllowed({ "User", "Admin" })
     public Response getUsuario() {
+        String login = jwt.getSubject();
+        LOG.info("Buscando perfis do usuário logado.");
+        return Response.ok(usuarioService.findByLogin(login)).build();
+    }
 
-        // obtendo o login pelo token jwt
+    @PATCH
+    @Path("/alterar/senha")
+    @RolesAllowed({ "User", "Admin" })
+    public Response updateSenha(@Valid UpdateSenhaDTO dto){
+        LOG.info("Atualizando senha");
+        String login = jwt.getSubject();
+        
+        UsuarioResponseDTO retorno = usuarioService.updateSenha(dto, login);
+
+        return Response.status(201).entity(retorno).build();
+    }
+
+    @PATCH
+    @Path("/alterar/nome")
+    @RolesAllowed({ "User", "Admin" })
+    public Response updateNome(UpdateNomeDTO dto){
+        
         String login = jwt.getSubject();
 
-        return Response.ok(usuarioService.findByLogin(login)).build();
+        UsuarioResponseDTO retorno = usuarioService.updateNome(dto, login);
+        
+        return Response.status(201).entity(retorno).build();
+    }
 
+    @PATCH
+    @Path("/alterar/telefone")
+    @RolesAllowed({ "User", "Admin" })
+    public Response updateTelefone(UpdateTelefoneDTO dto){
+        
+        String login = jwt.getSubject();
+
+        UsuarioResponseDTO retorno = usuarioService.updateTelefone(dto, login);
+        
+        return Response.status(201).entity(retorno).build();
     }
 
     @PATCH

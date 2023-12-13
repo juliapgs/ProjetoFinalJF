@@ -5,12 +5,14 @@ import java.util.List;
 
 import br.unitins.topicos1.model.FormaPagamento;
 import br.unitins.topicos1.model.Pedido;
+import br.unitins.topicos1.model.Perfil;
 import br.unitins.topicos1.model.StatusPedido;
 
 public record PedidoResponseDTO(
     Long id,
     Long usuarioId,
     Long tenisId,
+    //Perfil perfil,
     List<EnderecoDTO> listaEndereco,
     LocalDate dataCompra,
     FormaPagamento formaPagamento,
@@ -21,6 +23,7 @@ public record PedidoResponseDTO(
             pedido.getId(),
             pedido.getUsuarioId(),
             pedido.getTenisId(),
+            //pedido.getPerfil(), 
             pedido.getListaEndereco()
                 .stream()
                 .map(t -> EnderecoDTO.valueOf(t)).toList(),

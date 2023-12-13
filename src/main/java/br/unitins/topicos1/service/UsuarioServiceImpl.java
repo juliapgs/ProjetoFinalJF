@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.unitins.topicos1.dto.TelefoneDTO;
+import br.unitins.topicos1.dto.UpdateNomeDTO;
+import br.unitins.topicos1.dto.UpdateSenhaDTO;
+import br.unitins.topicos1.dto.UpdateTelefoneDTO;
 import br.unitins.topicos1.dto.UsuarioDTO;
 import br.unitins.topicos1.dto.UsuarioResponseDTO;
 import br.unitins.topicos1.model.Perfil;
@@ -112,6 +115,64 @@ public class UsuarioServiceImpl implements UsuarioService {
         if (usuario == null) 
             throw new ValidationException("login", "Login inválido");
         
+        return UsuarioResponseDTO.valueOf(usuario);
+    }
+
+    @Override
+    @Transactional
+    public UsuarioResponseDTO updateSenha(@Valid UpdateSenhaDTO dto, String login) {
+
+        Usuario usuario = repository.findByLogin(login);
+
+        // Pedindo a senha do usuario como medida de proteção
+        if (usuario.getSenha().equals(hashService.getHashSenha(dto.senhaAtual()))) {
+            usuario.setSenha(hashService.getHashSenha(dto.novaSenha()));
+
+        } else
+            throw new ValidationException("Senha", "Senha atual incorreta.");
+
+        return UsuarioResponseDTO.valueOf(usuario);
+    }
+
+    @Override
+    @Transactional
+    public UsuarioResponseDTO updateNome(@Valid UpdateNomeDTO dto, String login) {
+
+        Usuario usuario = repository.findByLogin(login);
+
+        // Pedindo a senha do usuario como medida de proteção
+        if (usuario.getSenha().equals(hashService.getHashSenha(dto.senha()))) {
+            usuario.setNome(dto.nome());
+
+        } else
+            throw new ValidationException("Senha", "Senha atual incorreta. ");
+
+        return UsuarioResponseDTO.valueOf(usuario);
+    }
+
+    @Override
+    public UsuarioResponseDTO updateTelefone(@Valid UpdateTelefoneDTO dto, String login) {
+
+        Usuario usuario = repository.findByLogin(login);
+        
+        List<Telefone> telefones = new ArrayList<Telefone>();
+
+        if (usuario.getSenha().equals(hashService.getHashSenha(dto.senha()))) {
+            usuario.setListaTelefone(new ArrayList<Telefone>());
+            for (TelefoneDTO tel : dto.listaTelefones()) {
+                Telefone telefone = new Telefone();
+
+                telefone.setCodigoArea(tel.codigoArea());
+                telefone.setNumero(tel.numero());
+
+                telefones.add(telefone);
+            }
+
+            usuario.setListaTelefone(telefones);
+
+        }else
+            throw new ValidationException("Senha", "Senha atual incorreta. ");
+
         return UsuarioResponseDTO.valueOf(usuario);
     }
     

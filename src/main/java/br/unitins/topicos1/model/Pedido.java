@@ -21,6 +21,8 @@ public class Pedido extends DefaultEntity {
 
     @Column(name = "id_tenis", nullable = false)
     private Long tenisId;
+
+    private Perfil perfil;
     
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     @JoinTable(name = "pedido_endereco", joinColumns = @JoinColumn(name = "id_pedido"), inverseJoinColumns = @JoinColumn(name = "id_endereco"))
@@ -86,4 +88,12 @@ public class Pedido extends DefaultEntity {
         this.listaEndereco = listaEndereco;
     }
 
+    public Perfil getPerfil() {
+        return perfil;
+    }
+
+    public void setPerfil(Perfil perfil) {
+        this.perfil = perfil;
+    }
+    
 }
