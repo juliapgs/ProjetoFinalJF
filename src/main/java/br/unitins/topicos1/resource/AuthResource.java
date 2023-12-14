@@ -15,6 +15,7 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
+import jakarta.ws.rs.core.Response.Status;
 
 @Path("/auth")
 @Produces(MediaType.APPLICATION_JSON)
@@ -44,11 +45,21 @@ public class AuthResource {
 
         UsuarioResponseDTO result = service.findByLoginAndSenha(dto.login(), hashSenha);
 
-        String token = jwtService.generateJwt(result);
+        //implementação nova
+        if (result == null) {
+            return Response.status(Status.NO_CONTENT)
+                    .entity("Usuario não encontrado").build();
+        }
+        return Response.ok()
+                .header("Authorization", jwtService.generateJwt(result))
+                .build();
 
-        LOG.info("Finalizando o processo de login.");
+        //como estava antes        
+        //String token = jwtService.generateJwt(result);
 
-        return Response.ok().header("Authorization", token).build();
+        //LOG.info("Finalizando o processo de login.");
+
+        //return Response.ok().header("Authorization", token).build();
     }
   
 }

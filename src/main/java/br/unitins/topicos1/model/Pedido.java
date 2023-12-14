@@ -8,26 +8,24 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 
 import java.time.LocalDate;
 import java.util.List;
-
 @Entity
 public class Pedido extends DefaultEntity {
+
+    @ManyToOne
+    @JoinColumn(name = "id_usuario", nullable = false)
+    private Usuario usuario;
     
-    @Column(name = "id_usuario", nullable = false)
-    private Long usuarioId;
-
-    @Column(name = "id_tenis", nullable = false)
-    private Long tenisId;
-
-    private Perfil perfil;
+    @OneToMany(mappedBy = "pedido", cascade = CascadeType.ALL)
+    private List<ItemPedido> itemPedido;
     
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     @JoinTable(name = "pedido_endereco", joinColumns = @JoinColumn(name = "id_pedido"), inverseJoinColumns = @JoinColumn(name = "id_endereco"))
     private List<Endereco> listaEndereco;
-
 
     @Column(nullable = false)
     private LocalDate dataCompra;
@@ -40,20 +38,12 @@ public class Pedido extends DefaultEntity {
     @Column(length = 20, nullable = false)
     private StatusPedido statusPedido;
 
-    public Long getUsuarioId() {
-        return usuarioId;
+    public Usuario getUsuario() {
+        return usuario;
     }
 
-    public void setUsuarioId(Long usuarioId) {
-        this.usuarioId = usuarioId;
-    }
-
-    public Long getTenisId() {
-        return tenisId;
-    }
-
-    public void setTenisId(Long tenisId) {
-        this.tenisId = tenisId;
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
     }
 
     public LocalDate getDataCompra() {
@@ -88,12 +78,13 @@ public class Pedido extends DefaultEntity {
         this.listaEndereco = listaEndereco;
     }
 
-    public Perfil getPerfil() {
-        return perfil;
+    public List<ItemPedido> getItemPedido() {
+        return itemPedido;
+
     }
 
-    public void setPerfil(Perfil perfil) {
-        this.perfil = perfil;
+    public void setItemPedido(List<ItemPedido> list) {
+        this.itemPedido = list;
     }
     
 }

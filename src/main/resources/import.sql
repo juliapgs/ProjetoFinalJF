@@ -35,7 +35,11 @@ insert into tenis (marca, modelo, categoria, cor, tamanho, valor) values('Adidas
 insert into tenis (marca, modelo, categoria, cor, tamanho, valor) values('Vans', 'Old Skool', 'SKATE', 'Preto', 41, 399.99);
 insert into tenis (marca, modelo, categoria, cor, tamanho, valor) values('Nike', 'Zoom Fly', 'CORRIDA', 'Rosa', 37, 499.99);
 
+insert into itens('2', 2, 1);
+insert into itens('1', 3, 2);
+insert into itens('3', 5, 3);
+
 -- Inserindo Pedidos
-INSERT INTO pedido (id_usuario, id_tenis, dataCompra, formaPagamento, statusPedido) VALUES (1, 2, '2023-02-22', 'PIX', 'AGUARDANDOPAGAMENTO');
-INSERT INTO pedido (id_usuario, id_tenis, dataCompra, formaPagamento, statusPedido) VALUES (1, 2, '2023-04-03', 'BOLETO', 'ENTREGUE');
-INSERT INTO pedido (id_usuario, id_tenis, dataCompra, formaPagamento, statusPedido) VALUES (2, 3, '2023-10-06', 'PIX', 'PAGO');
+INSERT INTO pedido (1, dataCompra, formaPagamento, statusPedido) VALUES ('2023-02-22', 'PIX', 'AGUARDANDOPAGAMENTO');
+INSERT INTO pedido (2, dataCompra, formaPagamento, statusPedido) VALUES ('2023-04-03', 'BOLETO', 'AGUARDANDOPAGAMENTO');
+INSERT INTO pedido (1, dataCompra, formaPagamento, statusPedido) VALUES ('2023-10-06', 'PIX', 'AGUARDANDOPAGAMENTO');

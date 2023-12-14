@@ -7,8 +7,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 public record PedidoDTO (
-    Long usuarioId,
-    Long tenisId,
+    List<ItemPedidoDTO> itensPedido,
     List<EnderecoDTO> listaEndereco,
     LocalDate dataCompra,
     FormaPagamento formaPagamento,

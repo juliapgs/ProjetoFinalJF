@@ -8,7 +8,9 @@ import java.util.List;
 
 public interface PedidoService {
 
-    PedidoResponseDTO insert(@Valid PedidoDTO dto);
+    List<PedidoResponseDTO> getAll();
+
+    PedidoResponseDTO insert(@Valid PedidoDTO dto,  Long idUsuario);
 
     PedidoResponseDTO update(PedidoDTO dto, Long id);
 

@@ -12,6 +12,7 @@ public record TenisResponseDTO(
     Integer tamanho,
     Double valor
 ) { 
+
     public static TenisResponseDTO valueOf(Tenis tenis){
         return new TenisResponseDTO(
             tenis.getId(),
