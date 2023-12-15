@@ -131,6 +131,12 @@ public class PedidoServiceImpl implements PedidoService {
     }
 
     @Override
+    public List<PedidoResponseDTO> findByUsuario(Long idUsuario) {
+        List<Pedido> list = repository.findByUsuario(idUsuario);
+        return list.stream().map(compra -> PedidoResponseDTO.valueOf(compra)).collect(Collectors.toList());
+    }
+
+    @Override
     public PedidoResponseDTO findById(Long id) {
         Pedido pedido = repository.findById(id);
         if (pedido != null) {

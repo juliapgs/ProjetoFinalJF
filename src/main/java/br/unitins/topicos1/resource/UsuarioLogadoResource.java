@@ -1,21 +1,25 @@
 package br.unitins.topicos1.resource;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.eclipse.microprofile.jwt.JsonWebToken;
 import org.jboss.logging.Logger;
 import org.jboss.resteasy.annotations.providers.multipart.MultipartForm;
 
 import br.unitins.topicos1.form.UsuarioImageForm;
+import br.unitins.topicos1.service.PedidoService;
 import br.unitins.topicos1.service.UsuarioFileService;
 import br.unitins.topicos1.service.UsuarioService;
 import br.unitins.topicos1.application.Error;
+import br.unitins.topicos1.dto.PedidoResponseDTO;
 import br.unitins.topicos1.dto.UpdateNomeDTO;
 import br.unitins.topicos1.dto.UpdateSenhaDTO;
 import br.unitins.topicos1.dto.UpdateTelefoneDTO;
 import br.unitins.topicos1.dto.UsuarioResponseDTO;
 import jakarta.annotation.security.RolesAllowed;
 import jakarta.inject.Inject;
+import jakarta.validation.ConstraintViolationException;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;
@@ -40,16 +44,17 @@ public class UsuarioLogadoResource {
     UsuarioService usuarioService;
 
     @Inject
+    PedidoService pedidoService;
+
+    @Inject
     UsuarioFileService fileService;
 
     private static final Logger LOG = Logger.getLogger(UsuarioLogadoResource.class);
 
-    @GET
-    @RolesAllowed({ "User", "Admin" })
-    public Response getUsuario() {
+    private Long getIdUsuario() {
         String login = jwt.getSubject();
-        LOG.info("Buscando perfis do usuário logado.");
-        return Response.ok(usuarioService.findByLogin(login)).build();
+        UsuarioResponseDTO usuario = usuarioService.findByLogin(login);
+        return usuario.id();
     }
 
     @PATCH
@@ -118,6 +123,29 @@ public class UsuarioLogadoResource {
         ResponseBuilder response = Response.ok(fileService.obter(nomeImagem));
         response.header("Content-Disposition", "attachment;filename="+nomeImagem);
         return response.build();
+    }
+
+
+    @GET
+    @Path("/meus-pedidos")
+    @RolesAllowed({"Admin", "User"})
+    public Response minhasCompras() {
+        LOG.infof("Buscando compras");
+
+        try {
+            List<PedidoResponseDTO> response = pedidoService.findByUsuario(this.getIdUsuario());
+            LOG.info("Pesquisa realizada com sucesso.");
+            return Response.ok(response).build();
+        } catch (ConstraintViolationException e) {
+            LOG.error("Erro ao buscar compras.");
+            LOG.debug(e.getMessage());
+            Error error = new Error("constraint_violation", "Erro de validação. Verifique os dados fornecidos.");
+            return Response.status(Status.BAD_REQUEST).entity(error).build();
+        } catch (Exception e) {
+            LOG.fatal("Erro sem identificacao: " + e.getMessage());
+            Error error = new Error("internal_error", "Erro interno no servidor.");
+            return Response.status(Status.INTERNAL_SERVER_ERROR).entity(error).build();
+        }
     }
 
 }

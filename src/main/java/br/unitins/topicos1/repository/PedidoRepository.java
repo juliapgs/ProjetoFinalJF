@@ -11,4 +11,10 @@ public class PedidoRepository implements PanacheRepository<Pedido> {
     public List<Pedido> findByPedido(String pedido) {
         return find("UPPER(pedido) LIKE UPPER(?1) ", "%"+pedido+"%").list();
     }
+    public List<Pedido> findByUsuario(Long id) {
+        if (id == null)
+            return null;
+
+        return find("usuario.id = ?1 ", id).list();
+    }
 }
