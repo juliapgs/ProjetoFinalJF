@@ -5,17 +5,21 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import br.unitins.topicos1.dto.EnderecoDTO;
+import br.unitins.topicos1.dto.ItemPedidoDTO;
 import br.unitins.topicos1.dto.PedidoDTO;
 import br.unitins.topicos1.dto.PedidoResponseDTO;
 import br.unitins.topicos1.model.Endereco;
 import br.unitins.topicos1.model.ItemPedido;
 import br.unitins.topicos1.model.Pedido;
+import br.unitins.topicos1.model.Tenis;
 import br.unitins.topicos1.model.Usuario;
 import br.unitins.topicos1.repository.PedidoRepository;
+import br.unitins.topicos1.repository.TenisRepository;
 import br.unitins.topicos1.repository.UsuarioRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
+import jakarta.validation.Valid;
 import jakarta.ws.rs.NotFoundException;
 
 @ApplicationScoped
@@ -23,6 +27,12 @@ public class PedidoServiceImpl implements PedidoService {
 
     @Inject
     PedidoRepository repository;
+
+    @Inject
+    PedidoService pedidoService;
+
+    @Inject
+    TenisRepository tenisRepository;
 
     @Inject
     UsuarioRepository usuarioRepository;
@@ -52,14 +62,12 @@ public class PedidoServiceImpl implements PedidoService {
         
         List<ItemPedido> itens = new ArrayList<>();
 
-        //dto.itensPedido().forEach(item -> {
-        //    ItemPedido itemModel = itemPedidoService.toModel(item);
-        //    itemModel.setCompra(entity);
-        //    itens.add(itemModel);
-        //
-        //    preco.updateAndGet(v -> v + (itemModel.getPreco() * itemModel.getQuantidade()));
-        //}
-        //);
+        dto.itensPedido().forEach(itemDTO -> {
+            ItemPedido itemModel = pedidoService.toModel(itemDTO);
+            itemModel.setPedido(novoPedido);
+            itens.add(itemModel);
+        });
+        
         novoPedido.setItemPedido(itens);
 
         if (dto.listaEndereco() != null && !dto.listaEndereco().isEmpty()) {
@@ -145,5 +153,25 @@ public class PedidoServiceImpl implements PedidoService {
             throw new NotFoundException("Usuário não encontrado.");
 
         return usuario;
+    }
+
+    @Override
+    public ItemPedido toModel(@Valid ItemPedidoDTO dto) {
+        ItemPedido entity = new ItemPedido();
+
+        Tenis tenis = this.getProduto(dto.idProduto());
+        entity.setProduto(tenis);
+        entity.setQuantidade(dto.quantidade());
+
+        return entity;
+    }
+
+    private Tenis getProduto(Long id) {
+        Tenis tenis = tenisRepository.findById(id);
+
+        if (tenis == null)
+            throw new NotFoundException("Produto não encontrado.");
+
+        return tenis;
     }
 }

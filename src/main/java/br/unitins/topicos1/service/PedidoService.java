@@ -1,7 +1,9 @@
 package br.unitins.topicos1.service;
 
+import br.unitins.topicos1.dto.ItemPedidoDTO;
 import br.unitins.topicos1.dto.PedidoDTO;
 import br.unitins.topicos1.dto.PedidoResponseDTO;
+import br.unitins.topicos1.model.ItemPedido;
 import jakarta.validation.Valid;
 
 import java.util.List;
@@ -19,5 +21,7 @@ public interface PedidoService {
     PedidoResponseDTO findById(Long id);
 
     List<PedidoResponseDTO> findByAll();
+
+    ItemPedido toModel(@Valid ItemPedidoDTO dto);
 
 }

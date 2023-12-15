@@ -35,11 +35,30 @@ insert into tenis (marca, modelo, categoria, cor, tamanho, valor) values('Adidas
 insert into tenis (marca, modelo, categoria, cor, tamanho, valor) values('Vans', 'Old Skool', 'SKATE', 'Preto', 41, 399.99);
 insert into tenis (marca, modelo, categoria, cor, tamanho, valor) values('Nike', 'Zoom Fly', 'CORRIDA', 'Rosa', 37, 499.99);
 
-insert into itens('2', 2, 1);
-insert into itens('1', 3, 2);
-insert into itens('3', 5, 3);
+
+-- insert into itens(quantidade, preco, produto, pedido) values(2, 899.99, 2, 1);
+-- insert into itens(quantidade, preco, produto, pedido) values(1, 799.99,3, 2);
+-- insert into itens(quantidade, preco, produto, pedido) values(3, 1299.99, 5, 3);
+
+-- -- Inserindo Pedidos
+-- INSERT INTO pedido (id_usuario, data_compra, forma_pagamento, status_pedido) VALUES ('2023-02-22', 'PIX', 'AGUARDANDOPAGAMENTO');
+-- INSERT INTO pedido (dataCompra, formaPagamento, statusPedido) VALUES ('2023-04-03', 'BOLETO', 'AGUARDANDOPAGAMENTO');
+-- INSERT INTO pedido (dataCompra, formaPagamento, statusPedido) VALUES ('2023-10-06', 'PIX', 'AGUARDANDOPAGAMENTO');
+
+-- INSERT INTO pedido (id_usuario, data_compra, forma_pagamento, status_pedido) VALUES
+-- (1, '2023-12-12', 'Cartão de Crédito', 'Em andamento');
+
+
+-- INSERT INTO item_pedido (id_pedido, id_produto, quantidade, preco) VALUES
+-- (1, 1, 2, 50.0),
+-- (1, 2, 1, 30.0);
+
+--insert into itens(id_pedido, id_produto, quantidade, preco) values(2, 2, 1, 899.99);
+--insert into itens(id_pedido, id_produto, quantidade, preco) values(1,3, 2, 799.99);
+--insert into itens(id_pedido, id_produto, quantidade, preco) values(3, 5, 3, 1299.99);
 
 -- Inserindo Pedidos
-INSERT INTO pedido (1, dataCompra, formaPagamento, statusPedido) VALUES ('2023-02-22', 'PIX', 'AGUARDANDOPAGAMENTO');
-INSERT INTO pedido (2, dataCompra, formaPagamento, statusPedido) VALUES ('2023-04-03', 'BOLETO', 'AGUARDANDOPAGAMENTO');
-INSERT INTO pedido (1, dataCompra, formaPagamento, statusPedido) VALUES ('2023-10-06', 'PIX', 'AGUARDANDOPAGAMENTO');
+INSERT INTO pedido (id_usuario, dataCompra, formaPagamento, statusPedido) VALUES (1, '2023-02-22', 'PIX', 'AGUARDANDOPAGAMENTO');
+INSERT INTO pedido (id_usuario, dataCompra, formaPagamento, statusPedido) VALUES (2, '2023-04-03', 'BOLETO', 'AGUARDANDOPAGAMENTO');
+INSERT INTO pedido (id_usuario, dataCompra, formaPagamento, statusPedido) VALUES (1, '2023-10-06', 'PIX', 'AGUARDANDOPAGAMENTO');
+
