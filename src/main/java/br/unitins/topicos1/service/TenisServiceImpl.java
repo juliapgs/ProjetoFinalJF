@@ -74,5 +74,13 @@ public class TenisServiceImpl implements TenisService {
         return repository.listAll().stream()
             .map(e -> TenisResponseDTO.valueOf(e)).toList();
     }
-    
+
+    @Override
+    @Transactional
+    public TenisResponseDTO updateImagem(Long id, String nomeImagem) {
+        Tenis tenis = repository.findById(id);
+        tenis.setNomeImagem(nomeImagem);
+        return TenisResponseDTO.valueOf(tenis);
+    }
+
 }

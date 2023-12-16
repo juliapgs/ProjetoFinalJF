@@ -14,6 +14,8 @@ public class Tenis extends DefaultEntity {
     @Column(length = 50, nullable = false)
     private String modelo;
 
+    private String nomeImagem;
+    
     @Enumerated(EnumType.STRING)
     @Column(length = 20, nullable = false)
     private CategoriaTenis categoria;
@@ -41,6 +43,14 @@ public class Tenis extends DefaultEntity {
 
     public void setModelo(String modelo) {
         this.modelo = modelo;
+    }
+
+    public String getNomeImagem() {
+        return nomeImagem;
+    }
+
+    public void setNomeImagem(String nomeImagem) {
+        this.nomeImagem = nomeImagem;
     }
 
     public CategoriaTenis getCategoria() {

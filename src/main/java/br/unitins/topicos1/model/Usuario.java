@@ -16,7 +16,6 @@ public class Usuario extends DefaultEntity {
     private String login;
     private String senha;
     private Perfil perfil;
-    private String nomeImagem;
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     @JoinTable(name = "usuario_telefone", joinColumns = @JoinColumn(name = "id_usuario"), inverseJoinColumns = @JoinColumn(name = "id_telefone"))
@@ -60,13 +59,5 @@ public class Usuario extends DefaultEntity {
 
     public void setPerfil(Perfil perfil) {
         this.perfil = perfil;
-    }
-
-    public String getNomeImagem() {
-        return nomeImagem;
-    }
-
-    public void setNomeImagem(String nomeImagem) {
-        this.nomeImagem = nomeImagem;
     }
 }
